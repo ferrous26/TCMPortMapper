@@ -17,3 +17,6 @@ xcuserdata/
 # osx noise
 .DS_Store
 profile
+
+# build directory
+build/
