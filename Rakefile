@@ -6,5 +6,5 @@ task :build do
   require 'fileutils'
   frameworks = File.expand_path '~/Library/Frameworks'
   FileUtils.mkdir_p frameworks
-  FileUtils.cp_r 'build/Release/TCMPortMapper.framework', frameworks
+  FileUtils.cp_r 'build/Release/TCMPortMapper.framework', frameworks, :force => true
 end
